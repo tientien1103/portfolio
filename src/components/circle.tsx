@@ -16,7 +16,7 @@ function Circle({ className, color = "pink" }: CircleProps) {
       <div
         className={clsx("w-1 rounded-full border border-primary p-0.5", {
           "border-white": color === "white",
-          "border-second": color === "blue",
+          "border-blue-500": color === "blue",
         })}
       />
     </div>

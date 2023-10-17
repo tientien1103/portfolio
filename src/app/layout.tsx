@@ -1,3 +1,4 @@
+import Header from "@/components/layout/header";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Raleway } from "next/font/google";
@@ -20,7 +21,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }

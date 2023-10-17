@@ -4,73 +4,35 @@ function Experience() {
   return (
     <Fragment>
       <div className="flex gap-4">
-        <p className="text-second">04/2023 - 05/2023</p>
-        <div>
-          <p className="text-second">WEBSCARE</p>
-          <p className="text-second">Project Based Freelancer</p>
-          <div>
-            <div className="flex">
-              <p className="text-primary text-sm">Branding Design</p>
-              <hr className="mx-2 h-4 border-s-[1px] border-primary" />
-              <p className="text-primary text-sm">Invitation Cards</p>
-              <hr className="mx-2 h-4 border-s-[1px] border-primary" />
-              <p className="text-primary text-sm">Posters</p>
-            </div>
-            <div className="flex">
-              <p className="text-primary text-sm">Social Media Post</p>
-              <hr className="mx-2 h-4 border-s-[1px] border-primary" />
-              <p className="text-primary text-sm">Logos</p>
-              <hr className="mx-2 h-4 border-s-[1px] border-primary" />
-            </div>
-          </div>
+        <p className="text-neutral-200">04/2023 - 10/2023</p>
+        <div className="max-w-[400px]">
+          <p className="text-neutral-200 text-lg font-bold">
+            E9 digital COMPANY
+          </p>
+          <ul className="list-disc ml-4">
+            <li className="text-neutral-200 text-sm">
+              Support the construction and development of application software,
+              new product, and company projects.
+            </li>
+            <li className="text-neutral-200 text-sm">
+              Maintaince and fix product errors during operation.
+            </li>
+            <li className="text-neutral-200 text-sm">
+              Complete other tasks as required by management.
+            </li>
+          </ul>
         </div>
       </div>
 
-      <div className="flex gap-4">
-        <p className="text-second">04/2023 - 05/2023</p>
+      {/* <div className="flex gap-4">
+        <p className="text-neutral-200">02/2023 - 08/2023</p>
         <div>
-          <p className="text-second">WEBSCARE</p>
-          <p className="text-second">Project Based Freelancer</p>
+          <p className="text-neutral-200">FullStack Web Development</p>
           <div>
-            <div className="flex">
-              <p className="text-primary text-sm">Branding Design</p>
-              <hr className="mx-2 h-4 border-s-[1px] border-primary" />
-              <p className="text-primary text-sm">Invitation Cards</p>
-              <hr className="mx-2 h-4 border-s-[1px] border-primary" />
-              <p className="text-primary text-sm">Posters</p>
-            </div>
-            <div className="flex">
-              <p className="text-primary text-sm">Social Media Post</p>
-              <hr className="mx-2 h-4 border-s-[1px] border-primary" />
-              <p className="text-primary text-sm">Logos</p>
-              <hr className="mx-2 h-4 border-s-[1px] border-primary" />
-            </div>
+            <p className="text-primary text-sm">Coder School</p>
           </div>
         </div>
-      </div>
-
-      <div className="flex gap-4">
-        <p className="text-second">04/2023 - 05/2023</p>
-        <div>
-          <p className="text-second">WEBSCARE</p>
-          <p className="text-second">Project Based Freelancer</p>
-          <div>
-            <div className="flex">
-              <p className="text-primary text-sm">Branding Design</p>
-              <hr className="mx-2 h-4 border-s-[1px] border-primary" />
-              <p className="text-primary text-sm">Invitation Cards</p>
-              <hr className="mx-2 h-4 border-s-[1px] border-primary" />
-              <p className="text-primary text-sm">Posters</p>
-            </div>
-            <div className="flex">
-              <p className="text-primary text-sm">Social Media Post</p>
-              <hr className="mx-2 h-4 border-s-[1px] border-primary" />
-              <p className="text-primary text-sm">Logos</p>
-              <hr className="mx-2 h-4 border-s-[1px] border-primary" />
-            </div>
-          </div>
-        </div>
-      </div>
+      </div> */}
     </Fragment>
   );
 }

@@ -4,28 +4,32 @@ function Expertise() {
   return (
     <Fragment>
       <div className="flex">
-        <p className="text-primary text-sm uppercase">FrontEnd development</p>
-        <hr className="mx-2 h-4 border-s-[1px] border-primary" />
-        <p className="text-primary text-sm uppercase">NextJS</p>
-        <hr className="mx-2 h-4 border-s-[1px] border-primary" />
-        <p className="text-primary text-sm uppercase">Html</p>
-        <hr className="mx-2 h-4 border-s-[1px] border-primary" />
-        <p className="text-primary text-sm uppercase">Css</p>
+        <p className="text-primary text-lg uppercase">ReactJS</p>
+        <hr className="mx-2 h-4 self-center border-s-[1px] border-primary" />
+        <p className="text-primary text-lg uppercase">NextJS</p>
+        <hr className="mx-2 h-4 self-center border-s-[1px] border-primary" />
+        <p className="text-primary text-lg uppercase">Html</p>
+        <hr className="mx-2 h-4 self-center border-s-[1px] border-primary" />
+        <p className="text-primary text-lg uppercase">Css</p>
+        <hr className="mx-2 h-4 self-center border-s-[1px] border-primary" />
+        <p className="text-primary text-lg uppercase">Tailwind</p>
       </div>
       <div className="flex">
-        <p className="text-primary text-sm uppercase">JavaScript</p>
-        <hr className="mx-2 h-4 border-s-[1px] border-primary" />
+        <p className="text-primary text-lg uppercase">JavaScript</p>
+        <hr className="mx-2 h-4 self-center border-s-[1px] border-primary" />
 
-        <p className="text-primary text-sm uppercase">TypeScript</p>
-        <hr className="mx-2 h-4 border-s-[1px] border-primary" />
-        <p className="text-primary text-sm uppercase">Web development</p>
+        <p className="text-primary text-lg uppercase">TypeScript</p>
+        <hr className="mx-2 h-4 self-center border-s-[1px] border-primary" />
+        <p className="text-primary text-lg uppercase">Web development</p>
       </div>
       <div className="flex">
-        <p className="text-primary text-sm uppercase">ReactJS</p>
-        <hr className="mx-2 h-4 border-s-[1px] border-primary" />
-        <p className="text-primary text-sm uppercase">NodeJs</p>
-        <hr className="mx-2 h-4 border-s-[1px] border-primary" />
-        <p className="text-primary text-sm uppercase">MongoDB</p>
+        <p className="text-primary text-lg uppercase">Contentful</p>
+        <hr className="mx-2 h-4 self-center border-s-[1px] border-primary" />
+        <p className="text-primary text-lg uppercase">NodeJs</p>
+        <hr className="mx-2 h-4 self-center border-s-[1px] border-primary" />
+        <p className="text-primary text-lg uppercase">MongoDB</p>
+        <hr className="mx-2 h-4 self-center border-s-[1px] border-primary" />
+        <p className="text-primary text-lg uppercase">Graphql</p>
       </div>
     </Fragment>
   );

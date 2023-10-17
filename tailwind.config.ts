@@ -16,6 +16,8 @@ const config: Config = {
       colors: {
         primary: "#E97777",
         second: "#0C134F",
+        thirdly: "#EF9595",
+        hoverPink: "#D35D6E",
       },
     },
   },
