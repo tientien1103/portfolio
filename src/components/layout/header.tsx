@@ -56,7 +56,7 @@ export default function Header() {
         "absolute bg-transparent": !isStickyHeader && !mobileMenuOpen,
       })}
     >
-      <Container className="max-w-2xl">
+      <Container className="max-w-xl">
         <nav
           className="flex items-center justify-between py-5"
           aria-label="Global"
