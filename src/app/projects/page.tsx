@@ -20,7 +20,8 @@ function ProjectPage() {
               />
               <div className="flex justify-between pt-4">
                 <Link
-                  href="#"
+                  target="_blank"
+                  href="https://tnetflix.netlify.app/"
                   className="text-primary hover:text-[#E63E6D] text-2xl font-bold"
                 >
                   Tnetflix
@@ -42,7 +43,8 @@ function ProjectPage() {
               />
               <div className="flex justify-between pt-6 pb-2">
                 <Link
-                  href="#"
+                  target="_blank"
+                  href="https://tmuzik.netlify.app/login"
                   className="text-primary hover:text-[#E63E6D] text-2xl font-bold"
                 >
                   Tmuzik
@@ -64,7 +66,8 @@ function ProjectPage() {
               />
               <div className="flex justify-between pt-4">
                 <Link
-                  href="#"
+                  target="_blank"
+                  href="https://pag-company.vercel.app/"
                   className="text-primary hover:text-[#E63E6D] text-2xl font-bold"
                 >
                   Pag Landing Page
