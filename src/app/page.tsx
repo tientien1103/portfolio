@@ -26,7 +26,7 @@ export default function Home() {
             <div className="flex gap-28">
               <div>
                 <Image
-                  src="/jpg/avatar.jpg"
+                  src="/jpg/tiencute.jpg"
                   alt=""
                   width={450}
                   height={400}
